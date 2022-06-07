@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
 const PORT = 3005
+const cors = require('cors')
+
+app.use(cors)
 
 const bestNewMusicWomen = {
     "hypnos": {
@@ -116,8 +119,19 @@ const bestNewMusicWomen = {
         "bestNewTrackAwarded": false,
     },
     'live': {
-
-    }
+        "artist": "angel bat dawid, the brotherhood",
+        "genre": "jazz",
+        "score": 8.4,
+        "releaseDate": '2020-10-31',
+        "bestNewTrackAwarded": false,
+    },
+    'mama, you can bet!': {
+        "artist": "jyoti",
+        "genre": "jazz",
+        "score": 8.4,
+        "releaseDate": '2020-08-28',
+        "bestNewTrackAwarded": false,
+    },
 }
 
 app.get('/', (req, res) => {
