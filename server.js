@@ -13,7 +13,7 @@ const bestNewMusicWomen = [
         "score": 8.3,
         "releaseDate": '2022-05-27',
         "bestNewTrackAwarded": false,
-    }
+    },
     {
         'title': "hypnos",
         "artist": "ravyn lenae",
