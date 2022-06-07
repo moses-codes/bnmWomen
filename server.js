@@ -55,7 +55,7 @@ const bestNewMusicWomen = [
         "bestNewTrackAwarded": true,
     },
     {
-        'kick iii',
+        'title': 'kick iii',
         "artist": "arca",
         "genre": "experimental",
         "score": 8.3,
@@ -79,7 +79,7 @@ const bestNewMusicWomen = [
         "bestNewTrackAwarded": false,
     },
     {
-        'any shape you take',
+        "title": 'any shape you take',
         "artist": "indigo de souza",
         "genre": "rock",
         "score": 8.3,
@@ -127,7 +127,7 @@ const bestNewMusicWomen = [
         "bestNewTrackAwarded": true,
     },
     {
-        'title': "the angel you don't know":
+        'title': "the angel you don't know",
         "artist": "amaarae",
         "genre": "pop/r&b",
         "score": 8.4,
