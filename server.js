@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const PORT = 3005
+const PORT = 3002
 const cors = require('cors')
 
 app.use(cors())
@@ -366,6 +366,101 @@ const bestNewMusicWomen = [
         "releaseDate": '2017-02-24',
         "bestNewTrackAwarded": true,
     },
+    {
+        'title': 'a seat at the table',
+        'artist': 'solange',
+        "genre": "pop/r&b",
+        "score": 8.7,
+        "releaseDate": '2016-09-30',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'a mulher do fim do mundo (a woman at the end of the world)',
+        'artist': 'elza soares',
+        "genre": "global",
+        "score": 8.4,
+        "releaseDate": '2016-10-03',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'heavn',
+        'artist': 'jamila woods',
+        "genre": "rpr/r&b",
+        "score": 8.4,
+        "releaseDate": '2016-07-17',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'puberty 2',
+        'artist': 'mitski',
+        "genre": "rock",
+        "score": 8.5,
+        "releaseDate": '2016-07-17',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'lemonade',
+        'artist': 'beyonce',
+        "genre": "pop/r&b",
+        "score": 8.5,
+        "releaseDate": '2016-04-23',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'a good night in the ghetto',
+        'artist': 'kamaiyah',
+        "genre": "rap",
+        "score": 8.2,
+        "releaseDate": '2016-03-14',
+        "bestNewTrackAwarded": true,
+    }, {
+        'title': "emily's d+evolution",
+        'artist': 'esperanza spalding',
+        "genre": "jazz",
+        "score": 8.6,
+        "releaseDate": '2016-03-04',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'hallucinogen ep',
+        'artist': 'kelela',
+        "genre": "pop/r&b",
+        "score": 8.3,
+        "releaseDate": '2015-10-09',
+        "bestNewTrackAwarded": false,
+    },
+    {
+        'title': 'me',
+        'artist': 'empress of',
+        "genre": "pop/r&b",
+        "score": 8.2,
+        "releaseDate": '2015-09-11',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'm3l155x',
+        'artist': 'fka twigs',
+        "genre": "pop/r&b, electronic",
+        "score": 8.6,
+        "releaseDate": '2015-08-13',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'february 15 ep',
+        'artist': 'nao',
+        "genre": "pop/r&b",
+        "score": 8.4,
+        "releaseDate": '2015-05-01',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        'title': 'dark energy',
+        'artist': 'jlin',
+        "genre": "electronic",
+        "score": 8.5,
+        "releaseDate": '2015-03-25',
+        "bestNewTrackAwarded": true,
+    }
 ]
 
 app.get('/', (req, res) => {
