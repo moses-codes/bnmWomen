@@ -107,6 +107,16 @@ const bestNewMusicWomen = {
         "score": 8.6,
         "releaseDate": '2021-01-08',
         "bestNewTrackAwarded": true,
+    },
+    "the angel you don't know": {
+        "artist": "amaarae",
+        "genre": "pop/r&b",
+        "score": 8.4,
+        "releaseDate": '2020-11-13',
+        "bestNewTrackAwarded": false,
+    },
+    'live': {
+
     }
 }
 
