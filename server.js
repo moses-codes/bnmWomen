@@ -3,7 +3,7 @@ const app = express()
 const PORT = 3005
 const cors = require('cors')
 
-app.use(cors)
+app.use(cors())
 
 const bestNewMusicWomen = {
     "hypnos": {
