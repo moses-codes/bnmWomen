@@ -128,6 +128,6 @@ app.get('/api/', (req, res) => {
     res.json(bestNewMusicWomen)
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`we out here on this server`)
 })
