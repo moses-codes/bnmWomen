@@ -7,6 +7,46 @@ app.use(cors())
 
 const bestNewMusicWomen = [
     {
+        "title": 'se ve desde aqui',
+        "artist": "mabe fratti",
+        "genre": "experimental",
+        "score": 8.3,
+        "releaseDate": '2022-10-25',
+        "bestNewTrackAwarded": false,
+    },
+    {
+        "title": 'natural black prom queen',
+        "artist": "sudan archives",
+        "genre": "pop/r&b",
+        "score": 9.0,
+        "releaseDate": '2022-09-12',
+        "bestNewTrackAwarded": false,
+    },
+    {
+        "title": 'renaissance',
+        "artist": "beyonce",
+        "genre": "pop/r&b",
+        "score": 9.0,
+        "releaseDate": '2022-08-01',
+        "bestNewTrackAwarded": true,
+    },
+    {
+        "title": 'heaven come crashing',
+        "artist": "rachika nayar",
+        "genre": "experimental",
+        "score": 8.4,
+        "releaseDate": '2022-09-02',
+        "bestNewTrackAwarded": false,
+    },
+    {
+        "title": 'remember your north star',
+        "artist": "yaya bey",
+        "genre": "pop/r&b",
+        "score": 8.6,
+        "releaseDate": '2022-06-17',
+        "bestNewTrackAwarded": false,
+    },
+    {
         "title": 'nothing to declare',
         "artist": "700 bliss",
         "genre": "experimental, rap, electronic",
