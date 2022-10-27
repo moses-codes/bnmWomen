@@ -20,7 +20,7 @@ const bestNewMusicWomen = [
         "genre": "pop/r&b",
         "score": 9.0,
         "releaseDate": '2022-09-12',
-        "bestNewTrackAwarded": false,
+        "bestNewTrackAwarded": true,
     },
     {
         "title": 'renaissance',
