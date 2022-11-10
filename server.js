@@ -7,6 +7,14 @@ app.use(cors())
 
 const bestNewMusicWomen = [
     {
+        "title": 'endure',
+        "artist": "special interest",
+        "genre": "rock",
+        "score": 8.8,
+        "releaseDate": '2022-11-05',
+        "bestNewTrackAwarded": true,
+    },
+    {
         "title": 'se ve desde aqui',
         "artist": "mabe fratti",
         "genre": "experimental",
